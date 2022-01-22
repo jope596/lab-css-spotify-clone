@@ -6,3 +6,140 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+#navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+} 
+
+#navbar .navbar-container .logo {
+    height: 40px;
+    width: auto;
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    }
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;;
+}
+
+#navbar .navbar-container {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*section 1*/
+
+.background {
+    background-image: url(/images/landing.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 50px;
+    
+}
+
+.background h1 {
+    font-size: 5em;
+    text-align: center;
+    margin-top: 220px;
+    color: #fff
+}
+
+.background div {
+    font-size: 1.5em;
+    text-align: center;
+    margin: -20px 400px;
+    flex-direction: column;
+    color: #fff;
+}
+
+/*section 2*/
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+.mid-container p {
+    font-size: 1.5em;
+}
+
+.mid-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 50px 5% 0 5%;    
+}
+
+.mid-container img {
+    height: 120px;
+}
+
+.mid-container article {
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 50px;
+    
+}
+
+.last-section {
+    background-color: #00B172;
+    color: #fff;
+}
+
+.last-classes {
+       display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+}
+
+.last-section div {
+    
+}
+
+.last-section article {
+    padding: 10px;
+    display: flex;
+    flex-direction: column ;
+    width: 300px;
+}
+
+.spotify-icon {
+    height: 180px;
+    margin-top: 200px;
+}
+
+.spotify-app {
+    height: 600px;
+}
+
+.last-section h2 {
+    text-align: left;
+    margin: 0 0 0 100px;
+    width: 400px;
+    text-decoration: underline;
+}
+
+.last-section p {
+    font-size: 1.3em;
+    margin-top: 0px;
+}
